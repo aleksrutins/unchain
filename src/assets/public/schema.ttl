@@ -1,0 +1,9 @@
+@prefix uc: <https://unchain.farthergate.com/schema.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+uc:Page a rdfs:Class ;
+    rdfs:isDefinedBy <https://unchain.farthergate.com/schema.ttl#Note> ;
+    rdfs:label "Page" ;
+    rdfs:comment "A page in a network" .
+

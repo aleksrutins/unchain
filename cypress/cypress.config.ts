@@ -1,9 +1,7 @@
-import { setupAerogelNodeEvents } from '@aerogel/cypress/config';
-import { defineConfig } from 'cypress';
-
-export default defineConfig({
+import { setupAerogelNodeEvents } from "@aerogel/cypress/config";
+export default {
     e2e: {
-        baseUrl: 'http://localhost:5001',
+        baseUrl: "http://localhost:5001",
         video: false,
         retries: {
             runMode: 3,
@@ -11,4 +9,4 @@ export default defineConfig({
         },
         setupNodeEvents: setupAerogelNodeEvents,
     },
-});
+};

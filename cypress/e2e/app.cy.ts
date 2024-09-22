@@ -1,9 +1,7 @@
-describe('App', () => {
+describe("App", () => {
+    beforeEach(() => cy.visit("/"));
 
-    beforeEach(() => cy.visit('/'));
-
-    it('Shows get started link', () => {
-        cy.see('Get started');
+    it("Shows get started link", () => {
+        cy.see("Get started");
     });
-
 });
